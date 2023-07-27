@@ -1,0 +1,57 @@
+.size
+{
+  font-size: 50px;
+  font-family: 'Roboto'
+
+}
+.text-center{
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+
+input{
+    background-color: rgba(179, 176, 176, 0.76);
+
+     width: 280px;
+     height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-color: black;
+  border-width: thick;
+     border-radius: 5px;
+     font-size: 20px;
+  
+}
+
+button {
+  background-color: #f03141;
+
+     width: 60px;
+     height: 50px;
+  margin: 8px;
+  padding: 4px;
+  /* border-color: rgb(17, 17, 17); */
+  /* border-width: 5px ; */
+     border-radius: 5px;
+  color: lightgoldenrodyellow;
+   font-size: 23px;
+   cursor: pointer;
+   box-shadow: 4px 4px 0 #d10123;
+   transition: transform 0.2s , box-shadow 0.2s;
+   
+}
+button:active{transform: translateX(4px) translateY(4px);
+   box-shadow: 0 0 0 #d10123;
+}
+
+.container
+{  
+    /* text-shadow: 40px; */
+    text-align: center;
+
+
+ 
+  
+}
